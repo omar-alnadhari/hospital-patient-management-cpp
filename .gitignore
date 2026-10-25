@@ -1,0 +1,32 @@
+# Build outputs and executables
+build/
+Debug/
+Release/
+x64/
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.idb
+*.log
+*.tlog
+*.lastbuildstate
+
+# IDE state
+.vs/
+*.suo
+*.sdf
+*.VC.db
+*.ipch
+*.user
+.vscode/
+
+# Runtime patient records: never publish private or sensitive data
+data/
+*.tmp
+*.bak
+
+# Generated Python files for tests
+__pycache__/
+*.pyc
